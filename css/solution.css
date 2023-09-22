@@ -103,11 +103,11 @@
 
 /* EXERCISE 13 */
 .ex-13-button:hover .ex-13-top-white {
-
+    animation: complete-move-box-top 2s linear;
 }
 
 .ex-13-button:hover .ex-13-bottom-white {
-
+    animation: complete-move-box-bottom 2s linear;
 }
 
 /* ANIMATION */
@@ -163,4 +163,64 @@
 }
 
 /* exercise 13 */
+@keyframes complete-move-box-top {
+    0% {
+        left: 10%;
+    }
 
+    25% {
+        left: calc(100% - 30px);
+        top: -10px;
+    }
+
+    50% {
+        left: calc(100% - 30px);
+        top: 100%;
+    }
+
+    75% {
+        left: 0;
+        top: 100%;
+    }
+
+    95%{
+        left: -20px;
+        top: -5px;
+    }
+
+    100% {
+        left: 10%;
+
+    }
+}
+
+@keyframes complete-move-box-bottom {
+    0% {
+        right: 10%;
+    }
+
+    25% {
+        right: calc(100% - 30px);
+        bottom: -10px;
+    }
+
+    50% {
+        right: calc(100% - 30px);
+        bottom: 100%;
+    }
+
+    75% {
+        right: 0;
+        bottom: 100%;
+    }
+
+    95%{
+        right: -20px;
+        bottom: -5px;
+    }
+
+    100% {
+        right: 10%;
+
+    }
+}

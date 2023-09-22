@@ -47,3 +47,8 @@
     transform: scale(0.5);
 }
 
+/* EXERCISE 6 */
+
+.ex-6-img:hover {
+    filter:grayscale(1);
+}

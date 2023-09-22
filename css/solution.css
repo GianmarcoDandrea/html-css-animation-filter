@@ -7,3 +7,11 @@
     background: red;
 }
 
+/* EXERCISE 2 */
+.ex-2-square {
+    transition: 3s linear;
+}
+
+.ex-2-square:active {
+    width: 100%;
+}

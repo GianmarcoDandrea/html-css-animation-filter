@@ -18,7 +18,7 @@
 
 /* EXERCISE 3 */
 .ex-3-square {
-    transition: 0.7s ;
+    transition: 0.7s;
 }
 
 .ex-3-square:hover {
@@ -35,7 +35,7 @@
 }
 
 /* EXERCISE 5 */
-.ex-5-square{
+.ex-5-square {
     transition: 1s;
 }
 
@@ -49,7 +49,7 @@
 
 /* EXERCISE 6 */
 .ex-6-img:hover {
-    filter:grayscale(1);
+    filter: grayscale(1);
 }
 
 /* EXERCISE 7 */
@@ -83,13 +83,13 @@
 }
 
 /* EXERCISE 10 */
-.ex-10-icon{
+.ex-10-icon {
     animation: complete-rotation 1.5s linear infinite;
-}  
+}
 
 /* EXERCISE 11 */
 .ex-11-icon:hover {
-    animation: partial-rotation 1s linear ;
+    animation: partial-rotation 1s linear;
 }
 
 /* EXERCISE 12 */
@@ -183,9 +183,9 @@
         top: 100%;
     }
 
-    95%{
+    95% {
         left: -20px;
-        top: -5px;
+        top: -10px;
     }
 
     100% {
@@ -214,9 +214,9 @@
         bottom: 100%;
     }
 
-    95%{
+    95% {
         right: -20px;
-        bottom: -5px;
+        bottom: -10px;
     }
 
     100% {

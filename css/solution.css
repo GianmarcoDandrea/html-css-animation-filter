@@ -92,6 +92,15 @@
     animation: partial-rotation 1s linear ;
 }
 
+/* EXERCISE 12 */
+.ex-12-top-white {
+    animation: move-border-top 1s linear;
+}
+
+.ex-12-bottom-white {
+    animation: move-border-bottom 1s linear;
+}
+
 /* ANIMATION */
 /* exercise 10 */
 @keyframes complete-rotation {
@@ -112,5 +121,34 @@
 
     100% {
         transform: rotate(0deg);
+    }
+}
+
+/* exercise 12 */
+@keyframes move-border-top {
+    0% {
+        left: 10%;
+    }
+
+    50% {
+        left: calc(100% - 60px);
+    }
+
+    100% {
+        left: 10%;
+    }
+}
+
+@keyframes move-border-bottom {
+    0% {
+        right: 20%;
+    }
+
+    50% {
+        right: calc(100% - 60px);
+    }
+
+    100% {
+        right: 20%;
     }
 }

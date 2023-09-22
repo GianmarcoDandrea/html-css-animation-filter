@@ -48,7 +48,15 @@
 }
 
 /* EXERCISE 6 */
-
 .ex-6-img:hover {
     filter:grayscale(1);
+}
+
+/* EXERCISE 7 */
+.ex-7-img {
+    transition: 1s linear;
+}
+
+.ex-7-img:hover {
+    filter: sepia(0.5) grayscale(0.5)
 }

@@ -94,11 +94,20 @@
 
 /* EXERCISE 12 */
 .ex-12-button:hover .ex-12-top-white {
-    animation: move-border-top 1s linear;
+    animation: move-box-top 1s linear;
 }
 
 .ex-12-button:hover .ex-12-bottom-white {
-    animation: move-border-bottom 1s linear;
+    animation: move-box-bottom 1s linear;
+}
+
+/* EXERCISE 13 */
+.ex-13-button:hover .ex-13-top-white {
+
+}
+
+.ex-13-button:hover .ex-13-bottom-white {
+
 }
 
 /* ANIMATION */
@@ -125,7 +134,7 @@
 }
 
 /* exercise 12 */
-@keyframes move-border-top {
+@keyframes move-box-top {
     0% {
         left: 10%;
     }
@@ -139,7 +148,7 @@
     }
 }
 
-@keyframes move-border-bottom {
+@keyframes move-box-bottom {
     0% {
         right: 20%;
     }
@@ -152,3 +161,6 @@
         right: 20%;
     }
 }
+
+/* exercise 13 */
+

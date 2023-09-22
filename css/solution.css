@@ -81,3 +81,15 @@
     border-radius: 30px;
     transform: scale(1.5);
 }
+
+/* EXERCISE 10 */
+.ex-10-icon{
+    animation: complete-rotation 2s linear infinite;
+}  
+/* ANIMATION */
+
+@keyframes complete-rotation {
+    0% {
+        transform: rotate(360deg);
+    }
+}

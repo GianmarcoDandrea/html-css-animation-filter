@@ -72,3 +72,12 @@
 }
 
 /* EXERCISE 9 */
+.ex-9-img {
+    transition: 1s linear;
+}
+
+.ex-9-img:hover {
+    filter: sepia(0.5) grayscale(0.5);
+    border-radius: 30px;
+    transform: scale(1.5);
+}
